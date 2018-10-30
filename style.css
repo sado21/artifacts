@@ -20,7 +20,7 @@ body {
 
 #content {
   overflow: auto;
-  color: green; }
+}
 #nav, #feature, #footer {
   margin: 3%;}
 .column1 {
@@ -31,9 +31,6 @@ body {
   margin-bottom: 1em;
   background-color:white;
   padding: 0.5em;}
-main {
-  flex: auto;
-}
 
 h1 {
   color:white;
