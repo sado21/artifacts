@@ -1,7 +1,10 @@
+* {
+  font-family: 'CMUSerifRoman'; 
+  font-weight: normal; 
+  font-style: normal; ; 
+  text-align: center;}
 
 body {
-  font-family: 'CMUSerifRoman';
-  text-align: center;
   padding: 0.5em;
   width: 90%;
   margin: 0 auto;
@@ -13,22 +16,41 @@ body {
   background-size: cover;
 
 }
+
+#content {
+  overflow: auto;
+  color: green; }
 #nav, #feature, #footer {
   margin: 3%;}
-
-
+.column1 {
+  width: 100%;
+  margin: 1%;
+  height: 0;
+  margin-bottom: 1em;
+  background-color:wheat;
+  padding: 0.5em;}
+main {
+  flex: auto;
+}
 
 h1 {
-  color:black;
-  background-color: lightgreen;
-  padding: 0.5em}
+  color:white;
+}
 
 #nav, #footer {
 
-  background-color:palegoldenrod;
+  background-color:pink;
   padding: 0.5em 12px;
   margin: 0.5px;
   padding: 10px 20px
+}
+
+
+h3{
+  background-color:lightgreen;
+}
+p{
+  background-color: antiquewhite;
 }
 
 
@@ -36,22 +58,8 @@ h1 {
   display:inline;
   padding: 1em;
 }
-h2{
-  background-color: aliceblue;
-  color: black;
-  text-align:center;
-  font-size: 10px;
-}
-li{
-  background-color:antiquewhite;
-}
 
-h3{
-  background-color: lightgreen;
-}
-p{
-  background-color: antiquewhite;
-}
+
 p, h1,a { 
   font-family: 'CMUSerifRoman'; 
   font-weight: normal; 
