@@ -23,7 +23,7 @@ body {
     margin: 2%;
   }
 }
-/* Maximum aspect ratio */
+
 @media (max-aspect-ratio: 1/1) {
   nav, section, article, footer  {
   margin: 20px 2px;
@@ -97,13 +97,12 @@ nav ul {
   padding-right: 40px;
   margin: 0px;
 }
-nav li{  
-  display: inline;
+
 }
-nav a{
-  display: inline-block;
-  font-family: 'ArchitectsDaughterRegular';
-  padding: 20px 14px;
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
 }
 nav a:hover {
   background-color: rgba(0,27,61,0.7);
