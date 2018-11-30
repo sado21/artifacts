@@ -1,62 +1,61 @@
 body {
-  font-family: Arial, sans-serif;
-  width: 100%;
-  margin: 0 auto;
-  background-color: whitesmoke;
-  background-image: url("https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg?cs=srgb&dl=access-adult-blur-261628.jpg&fm=jpg")
+  padding : 0.5em;
+  width : 90%;
+  margin : 0 auto;
+  background-image : url("https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg");
+  background-size : contain;
+  background-position : center;
+  background-repeat : no-repeat;
+  background-attachment : fixed;
+  background-size : cover;
+}
+#content {
+  overflow : auto;
+  color : green;
+}
+#nav, #feature, #footer {
+  margin : 3%;
+}
+.column1 {
+  width : 100%;
+  margin : 1%;
+  margin-bottom : 1em;
+  background-color : white;
+  padding : 0.5em;
 }
 main {
-  overflow: auto;}
-h1, h3, h2{ 
-  text-align: center;
-  padding: 5px;  
-  margin-right:auto; 
-  margin-left:auto;
-  font-family: 'unique'; 
-  font-weight: bold; 
-  font-style: normal; }
-
-nav, section, footer 
-{margin: 4%;
-  padding:0.5em;
-  color: rgb(41, 8, 76);}
-
-li {
-  text-align: center;
-  display: inline;
-  padding: 0.5em;}
-nav {
-
-  font-family: Impact, Charcoal, 'CMUSerifRoman'; 
-  text-align: center;
-  background-color: #a4c1cd;
-  padding: 0.5em 0;}
-a {
-  color: maroon;}
-h1{
-  background-color: pink;
-
+  flex : auto;
 }
-img  {
-  float: right;
+h1 {
+  color : white;
+}
+#nav, #footer {
+  background-color : pink;
+  padding : 0.5em 12px;
+  margin : 0.5px;
+  padding : 10px 20px;
+}
+#nav li {
+  display : inline;
+  padding-top:10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+p {
+  padding: 25px 50px 75px 100px;
+  background-color: #d1f8d1
+}
+h2 {
+  background-color : darkseagreen;
+}
+a{
+  color:#021f02;
 }
 
-iframe style {
-  float:left;
+p, h1, a {
+  font-family : 'CMUSerifRoman';
+  font-weight : normal;
+  font-style : normal;
+  font-size : 200%;
 }
-
-.artifact{
-  background: #c7a2a2;
-}
-#footer {
-  clear: both;
-}
-footer {
-  background-color: seashell;
-  text-align: center;
-  padding: 0.5em 0;}
-
-section{margin-bottom: 1em;}
-
-section {
-  background-color: papayawhip;}
