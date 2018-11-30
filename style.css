@@ -2,7 +2,7 @@ body {
   padding : 0.5em;
   width : 90%;
   margin : 0 auto;
-  background-image : url("https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg");
+  background-image : url("https://cdn.shopify.com/s/files/1/1297/3303/products/deluxe-black-anigre-and-whitened-erable-chess-board-21184258945_medium.jpg");
   background-size : contain;
   background-position : center;
   background-repeat : no-repeat;
@@ -20,7 +20,7 @@ body {
   width : 100%;
   margin : 1%;
   margin-bottom : 1em;
-  background-color : wheat;
+  background-color : white;
   padding : 0.5em;
 }
 main {
@@ -35,31 +35,26 @@ h1 {
   margin : 0.5px;
   padding : 10px 20px;
 }
-.image {
-  margin-left : 10%;
-  margin-right : 10%;
-  text-align : center;
-  border-radius : 50%;
-}
-.clear {
-  clear : both;
-}
 #nav li {
   display : inline;
-  padding : 1em;
+  padding-top:10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
-p{
-  background-color: antiquewhite;
+p {
+  padding: 25px 50px 75px 100px;
+  background-color: #d1f8d1
 }
-h2{
-  background-color: khaki;
+h2 {
+  background-color : darkseagreen;
 }
-h3{
-  background-color:#f1e8f5;
+a{
+  color:#021f02;
 }
+
 p, h1, a {
   font-family : 'CMUSerifRoman';
   font-weight : normal;
   font-style : normal;
   font-size : 200%;
-}
