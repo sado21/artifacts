@@ -1,62 +1,62 @@
 body {
-width : 90%;
-background-image : url("https://hdwallpaperim.com/wp-content/uploads/2017/08/22/357485-Mars-space-universe-artwork-planet-space_art-748x421.jpg");
-padding : 0.5em;
-margin : 0 auto;
-background-size : contain;
-background-position : center;
-background-repeat : no-repeat;
-background-attachment : fixed;
- background-size : cover;
-}
-
-#content {
-  overflow : auto;
-  color : green;
-}
-#nav, #feature, #footer {
-  margin : 3%;
-}
-.column1 {
-  width : 100%;
-  margin : 1%;
-  margin-bottom : 1em;
-  background-color : white;
-  padding : 0.5em;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  background-image: url("https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg?cs=srgb&dl=access-adult-blur-261628.jpg&fm=jpg")
 }
 main {
-  flex : auto;
+  overflow: auto;}
+h1, h3, h2{ 
+  text-align: center;
+  padding: 5px;  
+  margin-right:auto; 
+  margin-left:auto;
+  font-family: 'unique'; 
+  font-weight: bold; 
+  font-style: normal; }
+
+nav, section, footer 
+{margin: 4%;
+  padding:0.5em;
+  color: rgb(41, 8, 76);}
+
+li {
+  text-align: center;
+  display: inline;
+  padding: 0.5em;}
+nav {
+
+  font-family: Impact, Charcoal, 'CMUSerifRoman'; 
+  text-align: center;
+  background-color: #a4c1cd;
+  padding: 0.5em 0;}
+a {
+  color: maroon;}
+h1{
+  background-color: pink;
+
 }
-h1 {
-  color : white;
-}
-#nav, #footer {
-  background-color : pink;
-  padding : 0.5em 12px;
-  margin : 0.5px;
-  padding : 10px 20px;
-}
-#nav li {
-  display : inline;
-  padding-top:10px;
-  padding-right: 0px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-}
-p {
-  padding: 25px 50px 75px 100px;
-  background-color: #d1f8d1
-}
-h2 {
-  background-color : white;
-}
-a{
-  color:white;
+img  {
+  float: right;
 }
 
-p, h1, a {
-  font-family : 'CMUSerifRoman';
-  font-weight : normal;
-  font-style : normal;
-  font-size : 200%;
+iframe style {
+  float:left;
 }
+
+.artifact{
+  background: #c7a2a2;
+}
+#footer {
+  clear: both;
+}
+footer {
+  background-color: seashell;
+  text-align: center;
+  padding: 0.5em 0;}
+
+section{margin-bottom: 1em;}
+
+section {
+  background-color: papayawhip;}
