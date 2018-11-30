@@ -3,52 +3,60 @@ padding : 0.5em;
 width : 90%;
 margin : 0 auto;
 background-image : url("https://cdn.24.co.za/files/Cms/General/d/6790/48137d50b2b44250a264c40c3ae782d5.jpg");
-background-size : contain;
-background-position : center;
-background-repeat : no-repeat;
-background-attachment : fixed;
-background-size : cover;
+  background-size : contain;
+  background-position : center;
+  background-repeat : no-repeat;
+  background-attachment : fixed;
+  background-size : cover;
 }
 #content {
-overflow : auto;
-color : white;
+  overflow : auto;
+  color : green;
 }
 #nav, #feature, #footer {
-margin : 3%;
+  margin : 3%;
 }
 .column1 {
-width : 100%;
-margin : 1%;
-margin-bottom : 1em;
-background-color : white;
-padding : 0.5em;
+  width : 100%;
+  margin : 1%;
+  margin-bottom : 1em;
+  background-color : wheat;
+  padding : 0.5em;
 }
 main {
-flex : auto;
+  flex : auto;
 }
 h1 {
-color : white;
+  color : white;
 }
 #nav, #footer {
-background-color : pink;
-padding : 0.5em 12px;
-margin : 0.5px;
-padding : 10px 20px;
+  background-color : pink;
+  padding : 0.5em 12px;
+  margin : 0.5px;
+  padding : 10px 20px;
+}
+.image {
+  margin-left : 10%;
+  margin-right : 10%;
+  text-align : center;
+  border-radius : 50%;
+}
+.clear {
+  clear : both;
 }
 #nav li {
-display : inline;
-padding-top : 10px;
-padding-right : 0;
-padding-bottom : 10px;
-padding-left : 10px;
+  display : inline;
+  padding : 1em;
 }
-p {
-padding : 25px 50px 75px 100px;
-background-color : #d1f8d1;
+p{
+  background-color: antiquewhite;
 }
-h2 {
-background-color : darkseagreen;
+h2{
+  background-color: khaki
 }
-a {
-color : #021f02;
+p, h1, a {
+  font-family : 'CMUSerifRoman';
+  font-weight : normal;
+  font-style : normal;
+  font-size : 200%;
 }
