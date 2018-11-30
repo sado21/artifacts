@@ -131,11 +131,6 @@ td {
 
 
 
-
-/*----------INDIVIDUAL PAGE CLASS/ID MODIFIERS----------*/
-
-
-/*-------artifacts-------*/
 .artifact {
   height: 180px;
 }
@@ -143,42 +138,4 @@ img.align-left {
   float: left;
   clear: left;
   margin-right: 20px;
-}
-/*-----------------------*/
-
-
-/*--------modules--------*/
-.module p {
-  margin: 0 0 0 2em !important;
-}
-.module h3 {
-  margin-bottom: 0;
-}
-#fakeLink h3{
-  color: darkgreen;
-}
-/*-----------------------*/
-
-
-/*--------contact--------*/
-.error {
-  color: darkred;
-}
-.error img{
-  vertical-align: bottom;
-}
-#warning {
-  margin: 10%;
-  padding-left: 10%;
-  width: 50%;
-  color: darkred;
-}
-/*-----------------------*/
-
-
-/*-------interests-------*/
-#youtube {
-  width: 416px;
-  height: 234px;
-  border-style: none;
 }
