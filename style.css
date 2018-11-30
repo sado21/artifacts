@@ -11,7 +11,7 @@ background-size : cover;
 }
 #content {
 overflow : auto;
-color : green;
+color : white;
 }
 #nav, #feature, #footer {
 margin : 3%;
